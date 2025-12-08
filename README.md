@@ -1,11 +1,11 @@
-📦 Hackathon AmazonTech — Backend API
+# 📦 Hackathon AmazonTech — Backend API
 
-Backend API for the Hackathon AmazonTech project.
+ Backend API for the Hackathon AmazonTech project.
 This service provides authentication, waste lot management, scheduling, reporting, and AI-driven insights.
 
 Built with Node.js, Express and TypeScript using a clean layered architecture.
 
-🚀 Tech Stack
+## 🚀 Tech Stack
 
 Node.js
 
@@ -19,7 +19,8 @@ Firebase (Auth + Storage) (planned)
 
 AI integrations (planned)
 
-📁 Project Structure
+## 📁 Project Structure
+```
 src/
   app.ts                # Express configuration
   server.ts             # Server startup
@@ -34,21 +35,24 @@ src/
   types/                # Type definitions
   utils/                # Helpers
   docs/                 # Documentation files
+```
 
-▶️ How to run the project
+## ▶️ How to run the project
 1. Install dependencies
+```
 npm install
-
+```
 2. Run development server
+```
 npm run dev
-
+```
 3. Open Swagger UI (API documentation)
 
 Once running, open:
-
+```
 http://localhost:3000/api-docs
-
-✅ Current Features
+```
+## ✅ Current Features
 
 Project architecture ready
 
@@ -64,7 +68,7 @@ Middleware structure prepared
 
 Repository pattern applied
 
-📌 Roadmap
+## 📌 Roadmap
 
 Planned features:
 
@@ -86,11 +90,11 @@ Planned features:
 
 ✅ API security
 
-✍️ Development guidelines
+## ✍️ Development guidelines
 Architecture Layers
 Route → Controller → Service → Repository → Database
 
-Rules
+## Rules
 
 Swagger is the source of truth
 
@@ -102,11 +106,11 @@ Repositories only access database logic
 
 Every new feature must have Swagger documentation
 
-🧪 Testing
+## 🧪 Testing
 
 Swagger UI is used for manual API testing until automated tests are added.
 
-🤝 Contribution
+## 🤝 Contribution
 
 Fork the repository
 
@@ -116,7 +120,7 @@ Commit with clear messages
 
 Push and open a Pull Request
 
-🧠 Philosophy
+## 🧠 Philosophy
 
 This project aims to:
 
@@ -130,11 +134,11 @@ Be scalable
 
 Clarity over cleverness.
 
-📜 License
+## 📜 License
 
 MIT License
 
-👤 Author
+## 👤 Author
 
-Marcos Dotonion
+Marcos Dotonion (forked)
 GitHub: https://github.com/marcosdotonion
