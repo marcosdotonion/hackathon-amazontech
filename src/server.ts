@@ -24,6 +24,11 @@ const swaggerDocument = yaml.load(swaggerFile);
 
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument as object));
 
+app.get("/", (req, res) => {
+  res.send("Hello World");
+});
+
+
 app.listen(PORT, () => {
   console.log(`API running at http://localhost:${PORT}`);
   console.log(`Docs at http://localhost:${PORT}/api-docs`);
